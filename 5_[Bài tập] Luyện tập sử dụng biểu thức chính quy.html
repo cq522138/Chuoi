@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //Kiểm tra chuỗi đưa vào có đúng dạng dd/mm/yyyy
+    function Day() {
+        regexp = /^[/][0-9]{2}[/][0-9]{2}[/][1-9][0-9]{3}$/;
+        if (regexp.test(str)) {
+            return true;
+        }
+        else
+            return false;
+    }
+
+
+    //dem so tu trong 1 chuoi
+    var chuoi = "Học lập trình javascript codegym";
+    var count = chuoi.length;
+    document.write(count);
+
+
+    //Đếm số nguyên âm/phụ âm trong một chuỗi
+    var new_arry = new array();
+    var n = prompt("nhap vao so phan tu cua mang");
+    for (var i = 0; i < n; i++) {
+        alert(new_arry[i]);
+    }
+    var count = 0;
+    for (var j = 0; j < n; j++) {
+        if (new_arry[j] == a || new_arry[j] == e || new_arry[j] == o || new_arry[j] == u || new_arry[j] == i) {
+            count += 1;
+        }
+    }
+    document.writeln(count);
+
+</script>
+</body>
+</html>
